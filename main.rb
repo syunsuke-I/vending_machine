@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-require_relative '../suica/lib/suica'
-require_relative '../suica//lib/drink'
-require_relative '../suica//lib/vending_machine'
-require_relative '../suica/output'
+require_relative '../vending_machine/lib/suica'
+require_relative '../vending_machine//lib/drink'
+require_relative '../vending_machine//lib/vending_machine'
+require_relative '../vending_machine/output'
 
 # ドリンクの初期在庫を設定
 
