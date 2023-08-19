@@ -24,7 +24,7 @@ test/test.rb
 * 例えば、「ステップ1　Suica」と　classの「test_suica_step_one」が対応しています
 * テストは全てクリアしていることを確認済です
 
-<img src="image-1.png" width="350px">
+<img src="img/image-1.png" width="350px">
 
 
 
@@ -39,7 +39,7 @@ test/test.rb
 
 * 要件を満たしているかはテストコードで確認できると思いますが、実際どう動くのかは「main.rb」で確認できます
 
-<img src="image.png" width="350px">
+<img src="img/image.png" width="350px">
 
 * 「main.rb」に実際に使用する場合の処理を記述しています
 * 「output.rb」はこのファイル無しでも実行可能ですが、視認性と確認の行いやすさを考慮した処理をまとめています
