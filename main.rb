@@ -45,3 +45,4 @@ puts do_purchase_drink(suica, 'いろはす', vending_machine)
 
 # # 購入前の残高と売り上げの確認
 check_detail_info(vending_machine, suica)
+

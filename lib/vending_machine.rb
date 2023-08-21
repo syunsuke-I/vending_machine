@@ -104,3 +104,4 @@ class VendingMachine
     [error_msg.empty?, error_msg]
   end
 end
+

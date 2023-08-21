@@ -52,3 +52,4 @@ def check_purchase(suica, drink_name)
            "> #{drink.name}は#{error_msg}のため\n  購入できません"
          end
 end
+

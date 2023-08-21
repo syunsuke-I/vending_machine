@@ -99,3 +99,4 @@ class SuicaTest < Minitest::Test
     # 83行目 85行目で確認済
   end
 end
+

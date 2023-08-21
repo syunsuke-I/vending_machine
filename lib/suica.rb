@@ -23,3 +23,4 @@ class Suica
     @balance -= amount
   end
 end
+
