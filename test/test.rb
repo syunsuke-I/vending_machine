@@ -98,5 +98,16 @@ class SuicaTest < Minitest::Test
     # ステップ3と同様の方法でモンスターといろはすを購入できる
     # 83行目 85行目で確認済
   end
+
+  def test_suica_deduct
+    suica = Suica.new
+    e = assert_raises RuntimeError do
+      suica.deduct(501)
+    end
+    assert_equal e.message, '残高不足です'
+    assert_equal 0, suica.deduct(500)
+    suica.charge(500)
+    assert_equal 1, suica.deduct(499)
+  end
 end
 

@@ -20,6 +20,8 @@ class Suica
   end
 
   def deduct(amount)
+    raise '残高不足です' if balance < amount
+
     @balance -= amount
   end
 end
